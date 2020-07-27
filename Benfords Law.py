@@ -16,9 +16,6 @@ for line in data.text.split():
 for num in num_lst:
     first_no_lst.append(int(num[0]))
 
-# just a simple sort
-first_no_lst.sort()
-
 #ahh...atlast...the output part
 for i in range(10):
     print("{} : {}".format(i, first_no_lst.count(i)))
